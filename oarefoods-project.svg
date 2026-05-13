@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Oarefoods Limited website preview</title>
+  <desc id="desc">A red themed Oarefoods website hero preview with navigation, family product image styling, headline, and tagline.</desc>
+  <defs>
+    <linearGradient id="heroTint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7d140f" stop-opacity="0.76"/>
+      <stop offset="0.55" stop-color="#9b463b" stop-opacity="0.68"/>
+      <stop offset="1" stop-color="#5f160f" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8b0a5"/>
+      <stop offset="0.52" stop-color="#bf8174"/>
+      <stop offset="1" stop-color="#8e4b43"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#3a0805" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="640" fill="#ffffff"/>
+  <rect y="0" width="1200" height="4" fill="#38252f"/>
+  <rect y="4" width="1200" height="86" fill="#ffffff"/>
+
+  <g transform="translate(126 18)">
+    <circle cx="24" cy="24" r="22" fill="#8b251c" stroke="#b89154" stroke-width="2"/>
+    <circle cx="24" cy="24" r="15" fill="#6d1a15" stroke="#f2cc77" stroke-width="1"/>
+    <path d="M13 27 Q24 15 35 27 Q27 22 24 34 Q21 22 13 27Z" fill="#f7d36c"/>
+    <text x="24" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="700" fill="#ffffff">OAREFOODS</text>
+    <text x="58" y="34" font-family="Arial, sans-serif" font-size="30" fill="#b00000">Oarefoods</text>
+  </g>
+
+  <g transform="translate(646 28)" font-family="Arial, sans-serif" font-size="14" fill="#000000">
+    <rect width="52" height="30" fill="#8b0000"/>
+    <text x="26" y="20" text-anchor="middle" fill="#ffffff">Home</text>
+    <text x="72" y="20">About us</text>
+    <text x="140" y="20">Shop</text>
+    <text x="196" y="20">Contact us</text>
+    <text x="276" y="20">Cart</text>
+    <text x="326" y="20">Checkout</text>
+    <text x="408" y="20">My account</text>
+  </g>
+
+  <rect y="90" width="1200" height="550" fill="url(#room)"/>
+
+  <g opacity="0.46">
+    <rect x="48" y="90" width="1104" height="550" fill="#b97366"/>
+    <rect x="120" y="105" width="230" height="520" rx="24" fill="#d4a396"/>
+    <rect x="872" y="125" width="225" height="360" rx="26" fill="#a25e56"/>
+    <rect x="984" y="346" width="178" height="206" rx="58" fill="#d5b5ac"/>
+    <rect x="86" y="396" width="170" height="140" rx="18" fill="#8e4a42"/>
+  </g>
+
+  <g transform="translate(220 160)" filter="url(#softShadow)">
+    <circle cx="150" cy="120" r="70" fill="#5d211b"/>
+    <path d="M80 252 C100 162 196 154 225 252 Z" fill="#2c4673"/>
+    <path d="M65 255 C88 178 160 160 230 252 Z" fill="#d59b42" opacity="0.85"/>
+    <rect x="92" y="245" width="120" height="190" rx="8" fill="#e6a43d" transform="rotate(-8 152 340)"/>
+    <rect x="108" y="272" width="88" height="52" rx="8" fill="#bd3330" transform="rotate(-8 152 340)"/>
+    <text x="152" y="307" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" transform="rotate(-8 152 340)">PAP</text>
+
+    <circle cx="460" cy="84" r="74" fill="#56251f"/>
+    <path d="M390 252 C420 150 535 142 585 252 Z" fill="#c0a6a8"/>
+    <circle cx="520" cy="300" r="52" fill="#5b281f"/>
+    <path d="M477 435 C490 348 555 340 600 435 Z" fill="#d9b4a8"/>
+
+    <circle cx="365" cy="252" r="49" fill="#5b281f"/>
+    <path d="M316 430 C330 340 404 336 448 430 Z" fill="#476485"/>
+    <rect x="498" y="312" width="112" height="166" rx="8" fill="#e7aa45" transform="rotate(8 554 395)"/>
+    <rect x="516" y="340" width="76" height="50" rx="8" fill="#c73532" transform="rotate(8 554 395)"/>
+    <text x="554" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff" transform="rotate(8 554 395)">PAP</text>
+  </g>
+
+  <rect y="90" width="1200" height="550" fill="url(#heroTint)"/>
+
+  <g transform="translate(0 0)" font-family="Arial, sans-serif">
+    <text x="600" y="335" text-anchor="middle" font-size="40" font-weight="800" fill="#ffffff">
+      Welcome to <tspan fill="#eef020">Oarefoods</tspan>
+    </text>
+    <ellipse cx="698" cy="319" rx="86" ry="28" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <text x="600" y="407" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#ffffff">
+      Taste the tradition. Feel the difference
+    </text>
+  </g>
+
+  <g transform="translate(1150 588)">
+    <rect x="-31" y="-31" width="42" height="42" rx="8" fill="#28d448"/>
+    <circle cx="-10" cy="-10" r="14" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <path d="M-19 -3 L-12 -1 L-5 2" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">ARAOKIKI Cooperative Limited website preview</title>
+  <desc id="desc">A green cooperative website hero preview with navigation, enquiry phone number, welcome headline, and service cards.</desc>
+  <defs>
+    <linearGradient id="heroWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#39a7a7"/>
+      <stop offset="0.58" stop-color="#28a35f"/>
+      <stop offset="1" stop-color="#0a7032"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#003a21" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="640" fill="#f8fbf8"/>
+  <rect width="1200" height="90" fill="#ffffff"/>
+
+  <g transform="translate(26 18)">
+    <circle cx="38" cy="30" r="30" fill="#0b7b34" opacity="0.12"/>
+    <path d="M18 46 Q38 62 58 46" fill="none" stroke="#0b7b34" stroke-width="4"/>
+    <path d="M18 49 Q38 68 58 49" fill="none" stroke="#0b7b34" stroke-width="2" opacity="0.55"/>
+    <circle cx="38" cy="27" r="20" fill="#46b96d"/>
+    <path d="M25 28 C28 13 49 13 52 29 C45 24 33 24 25 28Z" fill="#0a4f28"/>
+    <text x="38" y="33" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#ffffff">ARAOKIKI</text>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="18" fill="#011f0d">
+    <text x="438" y="55" fill="#426dff">Home</text>
+    <text x="530" y="55">About us</text>
+    <text x="640" y="55">Services</text>
+    <text x="755" y="55">Contact us</text>
+  </g>
+
+  <g transform="translate(938 22)" fill="#022b13">
+    <circle cx="25" cy="25" r="20" fill="none" stroke="#06752d" stroke-width="3"/>
+    <path d="M18 16 C20 29 27 35 36 37 L41 30 L33 25 L29 29 C26 27 24 24 22 20 L27 17 L23 9Z" fill="#06752d"/>
+    <text x="58" y="16" font-family="Arial, sans-serif" font-size="22" font-weight="700">For Enquiries</text>
+    <text x="58" y="45" font-family="Georgia, serif" font-size="16">+234 803 607 0361 +2347014952013</text>
+  </g>
+
+  <rect y="90" width="1200" height="550" fill="url(#heroWash)"/>
+  <g opacity="0.28" filter="url(#softBlur)">
+    <circle cx="170" cy="342" r="95" fill="#073a32"/>
+    <circle cx="310" cy="365" r="78" fill="#08352e"/>
+    <circle cx="740" cy="354" r="92" fill="#ffffff"/>
+    <circle cx="940" cy="347" r="76" fill="#073a32"/>
+    <rect x="600" y="118" width="230" height="375" rx="88" fill="#f1fbf0"/>
+    <rect x="260" y="96" width="210" height="160" rx="24" fill="#0b7b34"/>
+  </g>
+  <rect y="90" width="1200" height="550" fill="url(#shade)"/>
+
+  <rect x="134" y="208" width="932" height="52" fill="#075043" opacity="0.38"/>
+  <ellipse cx="591" cy="235" rx="84" ry="26" fill="none" stroke="#10df44" stroke-width="4"/>
+  <text x="600" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="800" fill="#ffffff" letter-spacing="1">
+    WELCOME TO ARAOKIKI COOPERATIVE
+  </text>
+
+  <g transform="translate(134 325)">
+    <rect width="134" height="44" rx="22" fill="#00491f"/>
+    <text x="67" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#ffffff">APPLY HERE</text>
+  </g>
+
+  <g transform="translate(134 490)" font-family="Arial, sans-serif" fill="#ffffff">
+    <rect width="310" height="110" fill="#053f22" opacity="0.96"/>
+    <text x="78" y="45" font-size="26" font-weight="700">Swift Process</text>
+    <text x="78" y="78" font-size="18">Fast &amp; Easy Process</text>
+    <rect x="32" y="43" width="36" height="24" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <path d="M41 56 L55 42 M55 42 L64 35" stroke="#ffffff" stroke-width="3" fill="none"/>
+
+    <rect x="310" width="315" height="110" fill="#2a0909" opacity="0.96"/>
+    <text x="390" y="45" font-size="26" font-weight="700">Secured Payment</text>
+    <text x="390" y="78" font-size="18">No Hidden Fees</text>
+    <path d="M352 50 L368 64 L388 44" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <circle cx="363" cy="34" r="10" fill="none" stroke="#ffffff" stroke-width="3"/>
+
+    <rect x="625" width="320" height="110" fill="#a7cfa6" opacity="0.94"/>
+    <text x="705" y="45" font-size="26" font-weight="700">24/7 Support</text>
+    <text x="705" y="78" font-size="18">Quick support system</text>
+    <circle cx="673" cy="48" r="17" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <path d="M657 72 Q673 58 689 72" fill="none" stroke="#ffffff" stroke-width="4"/>
+  </g>
+</svg>

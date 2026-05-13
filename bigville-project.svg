@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Bigville High School website preview</title>
+  <desc id="desc">A dark themed Bigville High School website hero preview with campus building, navigation, welcome headline, and sign-in button.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f93a9"/>
+      <stop offset="0.58" stop-color="#b48958"/>
+      <stop offset="1" stop-color="#9d723d"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050505" stop-opacity="0.52"/>
+      <stop offset="0.5" stop-color="#0b0b0b" stop-opacity="0.56"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0.66"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="640" fill="#111111"/>
+  <rect width="1200" height="6" fill="#503549"/>
+  <rect y="6" width="1200" height="70" fill="#0d0d0d"/>
+
+  <g transform="translate(128 27)">
+    <rect width="18" height="18" fill="#fff7e4"/>
+    <circle cx="9" cy="9" r="6" fill="#6d4526"/>
+    <path d="M5 8 L9 4 L13 8 L13 13 L5 13Z" fill="#ffffff"/>
+    <text x="32" y="18" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Bigville High School</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="17" font-weight="600">
+    <text x="788" y="46" fill="#d6ff00">Home</text>
+    <text x="850" y="46" fill="#58a8ff">About us</text>
+    <text x="934" y="46" fill="#58a8ff">Contact us</text>
+    <text x="1026" y="46" fill="#58a8ff">Sign-in</text>
+  </g>
+
+  <rect y="76" width="1200" height="564" fill="url(#sky)"/>
+  <g transform="translate(0 76)">
+    <polygon points="0,50 370,0 690,72 1200,0 1200,560 0,560" fill="#b67b33" opacity="0.2"/>
+    <rect x="0" y="190" width="1200" height="370" fill="#b77c38"/>
+
+    <polygon points="0,70 385,0 695,68 695,116 0,130" fill="#4d4d4d"/>
+    <polygon points="638,68 945,0 1200,36 1200,94 690,122" fill="#4b4b4b"/>
+    <rect x="0" y="120" width="460" height="300" fill="#b77832"/>
+    <rect x="458" y="130" width="250" height="282" fill="#a76a31"/>
+    <rect x="708" y="116" width="492" height="330" fill="#8f572d"/>
+
+    <g fill="#223b45" opacity="0.86">
+      <rect x="82" y="205" width="94" height="96"/>
+      <rect x="232" y="205" width="98" height="96"/>
+      <rect x="386" y="198" width="92" height="100"/>
+      <rect x="554" y="205" width="88" height="102"/>
+      <rect x="836" y="205" width="112" height="104"/>
+      <rect x="1020" y="198" width="96" height="106"/>
+    </g>
+
+    <g stroke="#dfdfdf" stroke-width="7" opacity="0.75">
+      <line x1="162" y1="95" x2="162" y2="412"/>
+      <line x1="482" y1="108" x2="482" y2="402"/>
+      <line x1="674" y1="120" x2="674" y2="424"/>
+      <line x1="1126" y1="122" x2="1126" y2="440"/>
+    </g>
+
+    <g opacity="0.55">
+      <rect x="0" y="205" width="700" height="42" fill="#d7d7d7"/>
+      <rect x="0" y="248" width="700" height="6" fill="#4b4b4b"/>
+      <rect x="252" y="430" width="350" height="18" fill="#7a4a28"/>
+      <rect x="276" y="448" width="300" height="18" fill="#6e4325"/>
+      <rect x="306" y="466" width="245" height="18" fill="#5f3b23"/>
+    </g>
+
+    <g fill="#1f3440" opacity="0.75">
+      <circle cx="40" cy="490" r="12"/>
+      <rect x="31" y="502" width="18" height="52" rx="7"/>
+      <circle cx="380" cy="512" r="10"/>
+      <rect x="372" y="522" width="16" height="42" rx="6"/>
+      <circle cx="585" cy="504" r="11"/>
+      <rect x="576" y="516" width="18" height="48" rx="7"/>
+      <circle cx="922" cy="500" r="11"/>
+      <rect x="914" y="512" width="17" height="50" rx="7"/>
+    </g>
+  </g>
+
+  <rect y="76" width="1200" height="564" fill="url(#overlay)"/>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle" filter="url(#shadow)">
+    <text x="600" y="318" font-size="22" font-weight="500" fill="#ffbd29">WELCOME TO</text>
+    <text x="600" y="392" font-size="54" font-weight="900" fill="#ffffff" letter-spacing="2">BIGVILLE HIGH SCHOOL</text>
+    <g transform="translate(538 460)">
+      <rect width="124" height="58" rx="29" fill="#ffbd29"/>
+      <text x="62" y="36" font-size="15" font-weight="800" fill="#000000">SIGN-IN ></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Client portfolio website preview</title>
+  <desc id="desc">A dark and gold educator portfolio hero preview for Okafor Uche Joseph.</desc>
+  <defs>
+    <radialGradient id="glow" cx="32%" cy="55%" r="48%">
+      <stop offset="0" stop-color="#d2ad59" stop-opacity="0.3"/>
+      <stop offset="0.42" stop-color="#455057" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#101820" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172232"/>
+      <stop offset="0.5" stop-color="#111820"/>
+      <stop offset="1" stop-color="#071016"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1d17a"/>
+      <stop offset="1" stop-color="#b9913f"/>
+    </linearGradient>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="640" fill="url(#bg)"/>
+  <rect width="1200" height="640" fill="url(#glow)"/>
+  <rect width="1200" height="2" fill="#523546"/>
+
+  <g opacity="0.12" fill="none" stroke="#d1b368">
+    <circle cx="94" cy="188" r="40"/>
+    <circle cx="205" cy="568" r="34"/>
+    <rect x="862" y="250" width="100" height="170" rx="5"/>
+    <rect x="970" y="480" width="124" height="140" rx="6"/>
+  </g>
+
+  <g transform="translate(28 26)">
+    <circle cx="26" cy="26" r="24" fill="#f5f5f5"/>
+    <circle cx="26" cy="19" r="10" fill="#6c331f"/>
+    <path d="M10 50 C16 32 38 32 44 50 Z" fill="#1f4d49"/>
+    <path d="M17 36 L34 36 L41 50 L12 50 Z" fill="#263b35"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#f2efe8">
+    <text x="535" y="69">ABOUT</text>
+    <text x="632" y="69">EXPERIENCE</text>
+    <text x="774" y="69">SKILLS</text>
+    <text x="868" y="69">EDUCATION</text>
+    <text x="1004" y="69">TOOLS</text>
+    <text x="1100" y="69">CONTACT</text>
+  </g>
+
+  <g transform="translate(110 150)" filter="url(#softShadow)">
+    <circle cx="190" cy="235" r="190" fill="url(#gold)"/>
+    <circle cx="190" cy="235" r="182" fill="#f8f7f2"/>
+    <clipPath id="portraitClip">
+      <circle cx="190" cy="235" r="176"/>
+    </clipPath>
+    <g clip-path="url(#portraitClip)">
+      <rect x="14" y="60" width="352" height="352" fill="#f6f5f0"/>
+      <circle cx="204" cy="140" r="58" fill="#7b3f24"/>
+      <path d="M146 128 C160 70 250 72 263 134 C232 105 184 103 146 128Z" fill="#151515"/>
+      <path d="M132 398 C150 255 268 245 318 398 Z" fill="#153f3a"/>
+      <path d="M175 242 L230 242 L250 398 L156 398 Z" fill="#151515"/>
+      <path d="M158 230 L238 228 L218 272 L178 272 Z" fill="#f4f1e7"/>
+      <path d="M130 276 C164 240 210 250 244 278 L226 398 L110 398 Z" fill="#284e56"/>
+      <circle cx="184" cy="142" r="7" fill="#0c0c0c"/>
+      <circle cx="228" cy="142" r="7" fill="#0c0c0c"/>
+      <path d="M177 142 H194 M218 142 H236" stroke="#c9b27a" stroke-width="4"/>
+      <path d="M192 190 Q208 202 224 190" fill="none" stroke="#3b1d12" stroke-width="4"/>
+      <path d="M150 330 C186 295 218 298 240 340" fill="none" stroke="#7b3f24" stroke-width="16" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(630 152)" font-family="Georgia, serif" fill="#f4f0e8">
+    <text x="0" y="72" font-size="72" font-weight="700">Okafor Uche</text>
+    <text x="0" y="152" font-size="72" font-weight="700">Joseph</text>
+    <text x="0" y="222" font-family="Arial, sans-serif" font-size="32">Physics &amp; Mathematics Educator</text>
+
+    <rect x="0" y="276" width="290" height="54" rx="27" fill="none" stroke="#d2ad59" stroke-width="3"/>
+    <text x="145" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" letter-spacing="4" fill="#d2ad59">6+ Years Teaching Experience</text>
+
+    <rect x="0" y="382" width="170" height="58" rx="4" fill="url(#gold)"/>
+    <text x="85" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="5" fill="#14202a">VIEW WORK</text>
+
+    <rect x="192" y="382" width="184" height="58" rx="4" fill="none" stroke="#d2ad59" stroke-width="3"/>
+    <text x="284" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="5" fill="#d2ad59">CONTACT ME</text>
+  </g>
+</svg>
